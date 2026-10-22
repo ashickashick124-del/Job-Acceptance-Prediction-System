@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+.ipynb_checkpoints/
+.DS_Store
+
+# data & generated outputs (re-create with: python run_pipeline.py)
+data/raw/*.csv
+data/interim/*
+data/processed/*
+reports/*
+models/*
+docs/RESULTS_REPORT.*
+!**/.gitkeep
